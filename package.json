@@ -1,10 +1,10 @@
 {
   "name": "hono_react",
-  "module": "index.ts",
+  "module": "server/index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts",
-    "dev": "bun --watch run index.ts"
+    "start": "bun server/index.ts",
+    "dev": "bun --watch server/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
